@@ -1,9 +1,11 @@
 import difflib
 import os
 import pandas as pd
+from tkinter import Tk
+from tkinter.filedialog import askdirectory
 
 # Directory containing the files
-directory = '/home/user/Downloads/Codes/Exp_5_codes/Exp_5_all/'
+directory = askdirectory(title='Select Folder')
 
 # Get a list of all files in the directory
 files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
