@@ -1,4 +1,4 @@
-A Python code was developed to check the plagiarism within a directory. I developed this code when I was a teaching assistant in one of my courses during my PhD when we came to know that there was mass copying in the lab codes. 
+A Python code developed to check the plagiarism within a directory. I developed this code when I was a teaching assistant in one of my courses during my PhD when we came to know that there was mass copying in the lab codes. 
 
 The code saves the plagiarism report as a csv file, which includes names of files and their similarity. 
 
